@@ -14,9 +14,7 @@ management:
         include: refresh 
  
    
-#server:
-#  port: 8201
-#  
+
 eureka:
   client:
     service-url:
