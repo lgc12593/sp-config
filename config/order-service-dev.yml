@@ -6,7 +6,14 @@ spring:
     port: 5672
     username: admin
     password: admin
-    
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh 
+ 
+   
 #server:
 #  port: 8201
 #  
